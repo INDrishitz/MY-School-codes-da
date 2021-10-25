@@ -1,0 +1,4 @@
+#MAKE SURE U HAVE THE FILE OF ANY CSV AND RENAME IT IG ERRORS ARE UR PROBLEM CUZ I TOO HAD A HARD TIME
+import pandas as pd
+dataframe = pd.read_csv("Stu_Marks.csv")
+print(dataframe.head())
