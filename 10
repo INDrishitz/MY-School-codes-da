@@ -1,0 +1,6 @@
+import matplotlib.pyplot as plt
+collectionamt=[3000,8000,5000,12000]
+section=['A','B','C','D']
+plt.title("Charity Collection")
+plt.pie(collectionamt, labels=section,autopct="%1.2f%%")
+plt.show()
