@@ -1,0 +1,13 @@
+import pandas as pd
+data = {"Name": ["Sowmya", "Alice", "Reena", "Ravi"], "Age": [15, 16, 15,
+14],
+
+"Class": [10,11,10,9] }
+
+df = pd.DataFrame(data)
+print(df)
+df.to_csv("C:\\AI\\data.csv")
+
+Note: please make sure AI folder exists in ‘C’ Drive. Else change the path
+accordingly.(ITS AN ORDER CKYA BLYAT BTW NOT RUSI CYKA BLIN)
+
