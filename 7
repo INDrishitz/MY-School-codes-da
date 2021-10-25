@@ -1,0 +1,22 @@
+list1=[10,20,5,4,42,20,58,35]
+print("original List values:" ,list1)
+print("Number of elements in the list =",len(list1))
+# add an element to the end of the list
+list1.append(34)
+print("Append 34 = ",list1)
+#insert an item at the defined index
+list1.insert(7,125)
+print("Insert 125 at index 7 = ",list1)
+print("Index of 125 =",list1.index(125)) #to get the index of the
+first matched item
+#to count number of a specific element in a list
+print("count of 20 = ",list1.count(20))
+#to reverse the order of a list
+list1.reverse()
+print("Reverse list = ",list1)
+#to sort the list in ascending order
+
+list1.sort()
+print("Sorted list = ",list1)
+list1.remove(125)
+print("New list = ",list1)
