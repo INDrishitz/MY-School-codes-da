@@ -1,0 +1,10 @@
+import numpy as np # import numpy
+import cv2 # import OpenCV
+from matplotlib import pyplot as plt # import matplotlib
+img = cv2.imread('flower.jpg') #Load the image file into memory
+
+plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
+print("Size= ",img.shape) # for size of the image
+plt.title('flower')
+plt.axis('off')
+plt.show()
