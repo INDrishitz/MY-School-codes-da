@@ -1,0 +1,10 @@
+import numpy as np # import numpy
+import cv2 # import OpenCV
+from matplotlib import pyplot as plt # import matplotlib
+img = cv2.imread('flower.jpg')
+roi = img[1900:3200,1400:2670] # img[range of y, range of x]
+plt.imshow(cv2.cvtColor(roi, cv2.COLOR_BGR2RGB))
+plt.title('flower')
+plt.axis('off')
+plt.show()
+NOTE ALL PIC SHALL BE IN UR ANY FING DIRECTLY WHERE PYTHON IS STORED
