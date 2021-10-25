@@ -1,0 +1,7 @@
+import matplotlib.pyplot as plt
+Medals=['Gold','Silver','Bronze']
+Count=[26,20,30]
+plt.bar(Medals,Count,color=['gold','silver','brown'])
+plt.xlabel("Medal Type")
+plt.ylabel("India Medal Count")
+plt.show()
